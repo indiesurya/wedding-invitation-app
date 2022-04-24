@@ -12,7 +12,7 @@
 
 <!-- Custom styles for this template-->
 <link href="{{ asset('sbadmin/css/sb-admin-2.min.css') }}" rel="stylesheet">
-<link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
 @stack('css')
 
