@@ -28,7 +28,6 @@
 					<label class="col-sm-4 col-form-label">Foto</label>
 					<div class="col-sm-8">
 						<div class="custom-file">
-							@dd($banner)
 							<label class="custom-file-label">{{ $banner->image }}</label>
 							<input type="file" class="custom-file-input @error('image') is-invalid @enderror" wire:model="image">
 
