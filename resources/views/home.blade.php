@@ -6,7 +6,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="'bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -41,11 +41,11 @@
         <i class="fa fa-arrow-up"></i>
     </div>
     
-    <script src="{{ asset('bootstrap/bootstrap.min.js') }}"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
     <script>
         const weddingDate = '{{ $wedding->date }}'
     </script>
-    <script src="{{ asset('js/script.js') }}"></script>
+    <script src="js/script.js"></script>
     <script>
         window.onload = function(){
             document.getElementById("autoplay").play();
