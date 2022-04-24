@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 public/storage/img
+web: vendor/bin/heroku-php-apache2 public/
