@@ -46,10 +46,5 @@
         const weddingDate = '{{ $wedding->date }}'
     </script>
     <script src="js/script.js"></script>
-    <script>
-        window.onload = function(){
-            document.getElementById("autoplay").play();
-        }
-    </script>
 </body>
 </html>
