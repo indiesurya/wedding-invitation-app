@@ -17,4 +17,4 @@ function image(string $image): String
 	return asset('storage/img/'.$image);
 }
 
- ?>
+?>

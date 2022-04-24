@@ -7,7 +7,7 @@ trait FileTrait {
 	public function upload(object $file): String
 	{
 		$fileName = $this->getFileName($file);
-		$file->storeAs('public/img', $fileName);
+		$file->storeAs('img/', $fileName);
 
 		return $fileName;
 	}
