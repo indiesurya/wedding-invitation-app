@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 <body>
+
+    <audio hidden controls autoplay="autoplay">
+        <source src="{{ asset('music/1.mp3') }}" type="audio/mpeg">
+    </audio>
+
     @include('_includes.header')
 
     @include('_partials.about')
@@ -41,5 +46,10 @@
         const weddingDate = '{{ $wedding->date }}'
     </script>
     <script src="{{ asset('js/script.js') }}"></script>
+    <script>
+        window.onload = function(){
+            document.getElementById("autoplay").play();
+        }
+    </script>
 </body>
 </html>
