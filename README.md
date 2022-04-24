@@ -1,1 +1,1 @@
-Aplikasi Undangan Pernikahan + Admin
+Website Undangan Pernikahan + Admin
