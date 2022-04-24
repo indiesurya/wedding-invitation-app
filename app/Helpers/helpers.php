@@ -14,7 +14,7 @@ function localDate(string $date): String
 
 function image(string $image): String
 {
-	return asset('storage/img/'.$image);
+	return asset('img/'.$image);
 }
 
  ?>
