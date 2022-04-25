@@ -16,10 +16,10 @@ class WeddingSeeder extends Seeder
     public function run()
     {
     	Wedding::create([
-    		'date' => '2020-02-15',
-    		'time' => '09:00',
-    		'location' => 'Jln Raya Kandangwangi, Banjanregara, Wanadid',
-    		'iframe' => '<iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31654.53404735642!2d109.640139999646!3d-7.374424653472108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x11ceeee84634773c!2sSDN%203%20KANDANGWANGI!5e0!3m2!1sid!2sid!4v1610443711548!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>'
+    		'date' => '2020-06-02',
+    		'time' => '16:00',
+    		'location' => 'Jalan Pulau Supiori Gang 2 No 1,Br. Sebelanga, Dauh Puri Kauh, Denpaasar Barat, Denpasar, Bali',
+    		'iframe' => '<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=jalan%20pulau%20supiori%20gang%202%20no%201%20&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>'
     	]);
     }
 }

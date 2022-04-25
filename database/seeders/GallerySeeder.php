@@ -18,26 +18,32 @@ class GallerySeeder extends Seeder
 
     	$gallery = [
     		[
-    			'photo' => 'event.jpg'
+    			'photo' => '1.jpg'
     		],
     		[
-    			'photo' => 'event1.jpg'
+    			'photo' => '2.jpg'
     		],
     		[
-    			'photo' => 'event2.jpg'
+    			'photo' => '3.jpg'
     		],
     		[
-    			'photo' => 'man.jpg'
+    			'photo' => '4.jpg'
     		],
     		[
-    			'photo' => 'ring.jpg'
+    			'photo' => '5.jpg'
     		],
     		[
-    			'photo' => 'wedding.jpg'
+    			'photo' => '6.jpg'
     		],
     		[
-    			'photo' => 'woman.jpg'
+    			'photo' => '7.jpg'
     		],
+			[
+				'photo' => '8.jpg'
+			],
+			[
+				'photo' => '9.jpg'
+			],
     	];
 
     	Gallery::insert($gallery);

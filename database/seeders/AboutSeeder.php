@@ -16,15 +16,15 @@ class AboutSeeder extends Seeder
     public function run()
     {
     	About::create([
-    		'man_name' => 'Samuel Zylgywn',
-            'man_nickname' => 'Samuel',
-    		'man_father' => 'Robert Zylgywn',
-    		'man_about' => 'Seorang pemuda yang haus akan kekayaan, cinta perdamaian, dan penuh kasih sayang',
+    		'man_name' => 'I Putu Indie Surya Jayadi',
+            'man_nickname' => 'Indie',
+    		'man_father' => 'I Wayan Wijaya',
+    		'man_about' => 'Seorang pemuda yang tampan',
     		'man_photo' => 'man.jpg',
-    		'woman_name' => 'Citra Skolastika',
-            'woman_nickname' => 'Citra',
-    		'woman_father' => 'Fitroh Skolastika',
-    		'woman_about' => 'Wanita yang selalu berpegang teguh pada iman, menjaga aurat adalah hal yang paling utama dalam hidupnya',
+    		'woman_name' => 'Ni Ketut Nitya Cahyani,S.Farm., Apt.',
+            'woman_nickname' => 'Nitya',
+    		'woman_father' => 'I Ketut Wisna',
+    		'woman_about' => 'Wanita yang cantik dan suka ngambul',
     		'woman_photo' => 'woman.jpg'
     	]);
     }

@@ -16,8 +16,8 @@ class QuoteSeeder extends Seeder
     public function run()
     {
     	Quote::create([
-    		'text' => 'Jangan Lupa Datang Boy',
-            'footer' => 'Sakinah Mawadah Warohmah',
+    		'text' => 'Jangan Lupa Datang & Mohon Doa Restu',
+            'footer' => 'Dumogi sang awiwaha setata bagia nyantos riwekasan',
     		'image' => 'event2.jpg'
     	]);
     }

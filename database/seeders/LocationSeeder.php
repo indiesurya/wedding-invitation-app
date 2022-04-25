@@ -16,7 +16,7 @@ class LocationSeeder extends Seeder
     public function run()
     {
     	Location::create([
-    		'image' => 'event2.jpg'
+    		'image' => '1.jpg'
     	]);
     }
 }

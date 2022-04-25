@@ -15,11 +15,25 @@ class EventSeeder extends Seeder
      */
     public function run()
     {
-    	Event::create([
-    		'name' => 'Akad Nikah',
-    		'location' => 'Mall Jakabaring',
-    		'date' => '2021-05-10',
-    		'photo' => 'event.jpg'
-    	]);
+    	Event::create(
+            [
+                'name' => 'Ngidih',
+                'location' => 'Rumah Nitya',
+                'date' => '2025-06-02',
+                'photo' => 'event.jpg'
+            ],
+            [
+                'name' => 'Mesakaban',
+                'location' => 'Rumah Indie',
+                'date' => '2025-06-02',
+                'photo' => 'event.jpg'
+            ],
+            [
+                'name' => 'Resepsi',
+                'location' => 'Rumah Indie',
+                'date' => '2025-06-02',
+                'photo' => 'event.jpg'
+            ]
+    );
     }
 }

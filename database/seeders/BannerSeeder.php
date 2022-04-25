@@ -17,7 +17,7 @@ class BannerSeeder extends Seeder
     {
     	Banner::create([
     		'text' => 'Undangan Pernikahan',
-            'image' => 'wedding.jpg'
+            'image' => '14.jpg'
     	]);
     }
 }

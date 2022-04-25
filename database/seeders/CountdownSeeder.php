@@ -17,7 +17,7 @@ class CountdownSeeder extends Seeder
     {
     	Countdown::create([
     		'text' => 'Hingga Tiba Saatnya',
-            'image' => 'event.jpg'
+            'image' => '13.jpg'
     	]);
     }
 }
