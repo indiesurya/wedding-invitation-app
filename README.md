@@ -1,4 +1,4 @@
-Website Undangan Pernikahan + Admin
+Website Undangan Pernikahan + Admin,
 Hasil (banyak fitur yang belum berfungsi) :( ::
 http://indie-nitya-wedding.herokuapp.com/
 
