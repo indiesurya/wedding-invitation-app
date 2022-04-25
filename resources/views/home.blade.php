@@ -40,7 +40,6 @@
     <div class="bg-dark text-light up d-flex align-items-center justify-content-center rounded-circle position-fixed">
         <i class="fa fa-arrow-up"></i>
     </div>
-    
     <script src="bootstrap/bootstrap.min.js"></script>
     <script>
         const weddingDate = '{{ $wedding->date }}'
