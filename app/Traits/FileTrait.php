@@ -7,8 +7,7 @@ trait FileTrait {
 	public function upload(object $file): String
 	{
 		$fileName = $this->getFileName($file);
-		$file->storePubliclyAs('img/', $fileName);
-
+		$file->storeAs('img/', $fileName);
 		return $fileName;
 	}
 
@@ -23,7 +22,5 @@ trait FileTrait {
 
 		return $originalName.'-'.$time.'.'.$extension;
 	}
-
 }
-
- ?>
+?>
