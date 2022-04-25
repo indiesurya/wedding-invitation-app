@@ -1,7 +1,7 @@
 Website Undangan Pernikahan + Admin (CRUD),
 
-
 http://indie-nitya-wedding.herokuapp.com/ (Banyak fitur yang belum berfungsi saat deploy (local aman), fitur lengkap clone di local :) ))
+(klik logo untuk dengerin musik)
 
 clone repo
 
